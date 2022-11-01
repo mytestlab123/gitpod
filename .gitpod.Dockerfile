@@ -14,8 +14,4 @@ RUN brew install gh
 # NPM
 RUN npm install -g npm@7.10.0
 RUN curl -o- https://raw.githubusercontent.com/amitkarpe/setup/main/scripts/zsh.sh | zsh
-<<<<<<< HEAD
-RUN curl https://get.ignite.com/cli@nightly! | sudo bash
-=======
 RUN curl https://get.ignite.com/cli! | sudo bash
->>>>>>> a3a5065f06932a7ac0a78b5adc5233447bb12a76
