@@ -2,6 +2,8 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
+  - init: curl https://get.ignite.com/cli! | sudo bash
+    command: ignite version 2>&1 > ~/ignite.version
   - name: Setup
 
     command: |
